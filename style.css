@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-links > a {
+    margin:0.1em;
+    padding:1em;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    border: solid;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.small-top-margin {
+    margin-top: -1em;;
+}
+
+.small-bottom-margin {
+    margin-bottom: -0.5em;;
+}
+
+p {
+    text-align: center;
+}
